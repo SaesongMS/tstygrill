@@ -1,0 +1,56 @@
+<div class="section-title">
+          <h2>Zamów <span>Stolik</span></h2>
+          <p></p>
+        </div>
+
+        <form method="post" action="mailto:xxx@xxx.xx" onsubmit="return sprawdz()">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 form-group">
+              <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <span id="name_error" style="color:red"></span>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <span id="email_error" style="color:red"></span>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <span id="phone_error" style="color:red"></span>
+            </div>
+            <div class="col-lg-6 col-md-6 form-group mt-3">
+              <input type="date" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <span id="date_error" style="color:red"></span>
+            </div>
+            <div class="col-lg-6 col-md-6 form-group mt-3">
+              <input type="time" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <span id="time_error" style="color:red"></span>
+            </div>
+            <div class="col-sm-6 form-group mt-3">
+              <p style="margin-bottom:5px;">Dodatki do stolika:</p>
+              <p style="margin-bottom:5px;"><input type="checkbox" id="none" value="brak" /> Brak
+              <p style="margin-bottom:5px;"><input type="checkbox" id="flower" value="kwiaty" /> Kwiaty
+              <p style="margin-bottom:5px;"><input type="checkbox" id="candles" value="świeczki"/> Świeczki
+              <p style="margin-bottom:5px;"><input type="checkbox" id="special" value="dodatkowe"/> Dodatkowe usługi (napisz w wiadomości)</p>
+              <span id="etc_error" style="color:red"></span>
+            </div>
+            <div class="col-sm-6 form-group mt-3">
+                <p style="margin-bottom:5px;">Typ Stolika:</p>
+                <p style="margin-bottom:5px;"><input name="stolik" type="radio" value="1" /> pojedynczy</p>
+                <p style="margin-bottom:5px;"><input name="stolik" type="radio" value= "2" checked="checked" /> 2 osobowy</p>
+                <p style="margin-bottom:5px;"></p><input name="stolik" type="radio" value= "3" /> 3 osobowy+</p>   
+                <span id="type_error" style="color:red"></span>
+              </div>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Dodatkowe informacje"></textarea>
+          </div>
+          <div class="mb-3">
+            <div class="sent-message"></div>
+          </div>
+          <div class="text-center">
+            <button type="submit">Zamow</button>
+            <button type="reset">Wyczysc</button>
+            <button id="edit">Edytuj zamówienie</button>
+            <button id="form" disabled>Nowe zamówienie</button>
+          </div>
+        </form>
