@@ -19,11 +19,11 @@ php artisan breeze
 |![admin dashboard](examples/admin_dashboard.JPG)|
 |:--:|
 | *Admin Dashboard* |
-||
+
 |![reservation](examples/reservation.JPG)|
 |:--:|
 | *Making a reservation* |
-||
+
 |![edit panel](examples/edit_panel.JPG)|
 |:--:|
 | *Editing a reservation in admin dashboard* |
