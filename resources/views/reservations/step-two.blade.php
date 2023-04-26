@@ -5,16 +5,16 @@
                 <div class="flex flex-col md:flex-row">
                     <div class="h-32 md:h-auto md:w-1/2">
                         <img class="object-cover w-full h-full"
-                            src="{{ asset('assets/img/gallery/klient.jpg') }}" alt="img" />
+                            src="{{ asset('assets/img/event-private.jpg') }}" alt="img" />
                     </div>
                     <div class="flex items-center justify-center p-6 sm:p-12 md:w-1/2">
                         <div class="w-full">
-                            <h3 class="mb-4 text-xl font-bold text-blue-600">Make Reservation</h3>
+                            <h3 class="mb-4 text-xl font-bold text-blue-600">Dokonaj rezerwacji</h3>
 
                             <div class="w-full bg-gray-200 rounded-full">
                                 <div
                                     class="w-100 p-1 text-xs font-medium leading-none text-center text-blue-100 bg-blue-600 rounded-full">
-                                    Step 2</div>
+                                    Krok 2</div>
                             </div>
 
                             <form method="POST" action="{{ route('reservations.store.step.two') }}">
