@@ -15,11 +15,11 @@ php artisan breeze
 
 ## Examples of system operation
 
-![admin dashboard](.git/examples/admin_dashboard.jpg)
+![admin dashboard](/examples/admin_dashboard.jpg)
 *Admin Dashboard*
 
-![reservation](.git/examples/reservation.jpg)
+![reservation](/examples/reservation.jpg)
 *Making a reservation*
 
-![edit panel](.git/examples/edit_panel.jpg)
+![edit panel](/examples/edit_panel.jpg)
 *Editing a reservation in admin dashboard*
