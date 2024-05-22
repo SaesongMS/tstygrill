@@ -1,6 +1,6 @@
-# psznygryl
+# tstygrill
 
-Psznygryl is Laravel project  to manage table reservations. This project uses the following tools:
+Tstygrill is Laravel project  to manage table reservations. This project uses the following tools:
 
 - [Laravel 9.x](https://github.com/laravel/laravel)
 - [Laravel Breeze](https://github.com/laravel/breeze)
